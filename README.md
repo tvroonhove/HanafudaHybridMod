@@ -33,8 +33,8 @@ Done:
 
 To do:
 - Modify sprites to add hanafuda art
-- Add custom jokers to spice things up
+- Add custom jokers to spice things up (there's definitely a lot of possibilities here)
 
 Possible improvements:
 - Add badges to the cards UI which tell you what category a card is (bright, seed, ribbon, chaff)
-- Add custom hands corresponding to the common yakus (idea stolen from [Crimson Heart's own hanafuda mod project](https://discord.com/channels/1116389027176787968/1210976027036352582), this was not my original plan)
+- Don't hesitate to make suggestions in the discord!
