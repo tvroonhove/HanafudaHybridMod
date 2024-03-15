@@ -10,7 +10,8 @@
 local Card_set_base_ref = Card.set_base
 function Card:set_base(card, initial)
     Card_set_base_ref(self, card, initial)
-
+    
+    self.base.nominal_chips = 0
     if self.base.value == 'Ace' then
         if self.base.suit == 'Spades' then self.base.nominal_chips = 20
         elseif self.base.suit == 'Hearts' then self.base.nominal_chips = 1
