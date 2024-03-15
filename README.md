@@ -1,4 +1,4 @@
-## Hanafuda hybrid deck mod for Balatro.
+## Hanafuda hybrid deck mod for Balatro
 
 A mod for [Balatro](https://store.steampowered.com/app/2379780/Balatro/) which changes the standard poker deck to a hybrid deck where each poker card is associated with a corresponding hanafuda card.
 
