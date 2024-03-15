@@ -83,7 +83,7 @@ function Card:generate_UIBox_ability_table()
     end
     if self.config.center.unlocked == false and not self.bypass_lock then --For everyting that is locked
         return Card_generate_UIBox_ability_table(self)
-    elseif card_type == 'Default' or card_type == 'Enhanced' then
+    elseif (card_type == 'Default' or card_type == 'Enhanced') and not self.debuff then
         loc_vars = { playing_card = not not self.base.colour, value = self.base.value, suit = self.base.suit, colour = self.base.colour,
                     nominal_chips = self.base.nominal > 0 and self.base.nominal_chips or nil,
                     bonus_chips = (self.ability.bonus + (self.ability.perma_bonus or 0)) > 0 and (self.ability.bonus + (self.ability.perma_bonus or 0)) or nil,
